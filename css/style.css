@@ -39,11 +39,13 @@ header {
 /* jumbotron */
 
 #jumbotron {
-    background-color: purple;
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-size:auto;
+    background-image: url(../img/jumbo-bg.png);
+    background-size:cover;
     background-position: center;
-    height: 700px;
+    height: 600px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    font-size: 18px;
 }
 
 .box-jumbo {
@@ -51,37 +53,87 @@ header {
     color: white;
 }
 
+.box-jumbo img {
+    width: 200px;
+}
+
+.botn-red {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 5px;
+    
+    
+}
 
 /* ps5 */
 
 /* slider */
 
+#slider {
+    margin-top: 50px;
+}
+
+#slider img {
+    width: 100%;
+    border-radius: 20px;
+}
+
 .box-slide {
     width: 100%;
-    height: 150px;
-    background-color: tomato;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 /* titolops5 */
 
 #titolo-ps5 {
-    height: 200px;
+    margin: 100px 0;
+}
+
+.blue {
+    color: blue;
 }
 
 /* show-ps5 */
 
 .box-show {
-    height: 400px;
     width: 100%;
-    background-color: red;
+    height: 100%;
+    
 }
 
+.box-show img{
+    width: 100%;
+}
+
+.botn-blue {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
 /* accessori */
 
 .box-access {
-    background-color: royalblue;
-    height: 100px;
     width: 100%;
+}
+
+.box-access img {
+    width: 100%;
+}
+
+.box-img {
+    padding: 15% 15% 0;
+}
+
+@media screen and (max-width:720px) {
+    #accessori h6{
+        display: none;
+    }
 }
 
 /* immagine gioco coop */
