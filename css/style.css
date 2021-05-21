@@ -6,22 +6,34 @@
 
 /* header */
 
-
+header {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 #logobar {
     background-color: black;
-    height: 50px;
+    height: 30px;
     width: 100%;
     
 }
 
+#logobar img {
+    width: 50px;
+}
+
+/* da sistemare ultimi dettagli */
 #navigatore {
-    height: 100px;
-    position: fixed;
-    top: 50px;
-    left: 0;
-    z-index: 9999;
+    height: 70px;
     background-color: white;
+}
+
+.piccolo {
+    width: 10px;
+}
+
+.med {
+    width: 20px;
 }
 
 /* jumbotron */
