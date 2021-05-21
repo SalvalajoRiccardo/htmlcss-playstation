@@ -7,7 +7,7 @@
 /* header */
 
 header {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -40,13 +40,15 @@ header {
 
 #jumbotron {
     background-color: purple;
-    height: 500px;
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size:auto;
+    background-position: center;
+    height: 700px;
 }
 
-.box-jambo {
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
+.box-jumbo {
+    max-width: 500px;
+    color: white;
 }
 
 
