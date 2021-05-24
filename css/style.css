@@ -221,9 +221,11 @@ header {
 /* sconti */
 
 .box-sconti {
-    height: 100px;
+    text-align: center;
+}
+
+.box-sconti img {
     width: 100%;
-    background-color: greenyellow;
 }
 
 /* playnow */
