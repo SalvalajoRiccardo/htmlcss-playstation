@@ -232,9 +232,14 @@ header {
 
 #play-now {
     background-color: #161c3b;
-    height: 300px;
 }
 
+.box-play-now {
+    display: flex;
+    align-items: center;
+    min-height: 240px;
+    color: white;
+}
 /* social */
 /* da aggiungere max width */
 .box-social {
