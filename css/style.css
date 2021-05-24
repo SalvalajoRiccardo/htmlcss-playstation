@@ -32,7 +32,9 @@
     color: blue;
 }
 
-
+.bg-white {
+    background-color: white;
+}
 /* header */
 
 header {
@@ -65,6 +67,15 @@ header {
     width: 20px;
 }
 
+@media only screen and (max-width: 992px) {
+    #lista-nav {
+      background-color: white;
+      width: 200px;
+      height: 100%;
+      text-align: center;
+    }
+  }
+
 /* jumbotron */
 
 #jumbotron {
@@ -85,8 +96,6 @@ header {
 .box-jumbo img {
     width: 200px;
 }
-
-
 
 /* ps5 */
 
@@ -243,9 +252,12 @@ header {
 /* social */
 /* da aggiungere max width */
 .box-social {
-    height: 100px;
     width: 100%;
     background-color: rebeccapurple;
+}
+
+.box-social img {
+    width: 100%;
 }
 
 /* footer */
