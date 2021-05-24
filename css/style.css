@@ -20,6 +20,14 @@
     padding: 5px;
 }
 
+.botn-grey {
+    color: blue;
+    background-color: lightgray;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
 .blue {
     color: blue;
 }
@@ -183,9 +191,33 @@ header {
 
 #play-store {
     background-color: #bebcbb;
-    height: 300px;
+    min-height: 240px;
 }
 
+.box-play-store {
+    display: flex;
+    align-items: center;
+    min-height: 240px;
+}
+
+.scritte-store img{
+    width: 50%;
+}
+
+.immagini-store {
+    height: 100%;
+    display: none;
+}
+
+.immagini-store img {
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .immagini-store {
+        display: flex;
+    }
+}
 /* sconti */
 
 .box-sconti {
