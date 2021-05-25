@@ -37,6 +37,8 @@
     text-decoration: none;
     border-radius: 20px;
     padding: 5px 8px;
+    width: 80px;
+    text-align: center;
 }
 
 .blue {
@@ -78,10 +80,13 @@ header {
     width: 50px;
 }
 
+
+
 /* da sistemare ultimi dettagli */
-#navigatore {
-    height: 70px;
-    background-color: white;
+
+
+#container-special {
+    padding: 0;
 }
 
 .navbar .megamenu{ padding: 1rem; }
