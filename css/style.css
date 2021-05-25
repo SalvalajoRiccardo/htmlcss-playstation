@@ -80,13 +80,19 @@ header {
     width: 50px;
 }
 
+.piccolo {
+    width: 10px;
+}
 
+.med {
+    width: 20px;
+}
 
 /* da sistemare ultimi dettagli */
 
 
 #container-special {
-    padding: 0;
+    padding: 0 20px;
 }
 
 .navbar .megamenu{ padding: 1rem; }
@@ -110,16 +116,42 @@ header {
 }
 /* ============ mobile view .end// ============ */
 
-
-.piccolo {
-    width: 10px;
-}
-
-.med {
-    width: 20px;
-}
-
 #bb {color: white;}
+
+.megamenu {
+    border-radius: 0;
+    border: none;
+}
+
+#button-nav {
+    margin-right: 10px;
+}
+
+.box-dropdown img{
+    width: 100px;
+}
+
+.box-dropdown {
+    text-align: center;
+}
+
+.ul-dropdown li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.ul-dropdown li a{
+    text-decoration: none;
+}
+
+.ul-dropdown li::before {
+    content: "\2022";  
+    color: #0070d1; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-right: -6px; 
+  }
 
 /* jumbotron */
 
